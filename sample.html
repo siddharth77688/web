@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  
+}
+body{
+    background-color: rgb(191, 189, 189);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Create a Flex Container</h1>
+
+<div class="flex-container">
+    <div style="flex-grow: 1">1</div>
+    <div style="flex-grow: 4">2</div>
+    <div style="flex-grow: 0">3</div>
+    <div style="flex-grow: 5">4</div>  
+</div>
+
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+
+</body>
+</html>
+
+
